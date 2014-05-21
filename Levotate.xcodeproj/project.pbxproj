@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7512FDD8192D61880017329D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7512FDD7192D61880017329D /* Cocoa.framework */; };
+		7512FDE2192D61880017329D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7512FDE0192D61880017329D /* InfoPlist.strings */; };
+		7512FDE4192D61880017329D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7512FDE3192D61880017329D /* main.m */; };
+		7512FDE8192D61880017329D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7512FDE6192D61880017329D /* Credits.rtf */; };
+		7512FDEB192D61880017329D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7512FDEA192D61880017329D /* AppDelegate.m */; };
+		7512FDEE192D61880017329D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7512FDEC192D61880017329D /* MainMenu.xib */; };
+		7512FDF0192D61880017329D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7512FDEF192D61880017329D /* Images.xcassets */; };
+		7512FDF7192D61880017329D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7512FDF6192D61880017329D /* XCTest.framework */; };
+		7512FDF8192D61880017329D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7512FDD7192D61880017329D /* Cocoa.framework */; };
+		7512FE00192D61880017329D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7512FDFE192D61880017329D /* InfoPlist.strings */; };
+		7512FE02192D61880017329D /* LevotateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7512FE01192D61880017329D /* LevotateTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7512FDF9192D61880017329D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7512FDCC192D61880017329D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7512FDD3192D61880017329D;
+			remoteInfo = Levotate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7512FDD4192D61880017329D /* Levotate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Levotate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7512FDD7192D61880017329D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7512FDDA192D61880017329D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7512FDDB192D61880017329D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7512FDDC192D61880017329D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7512FDDF192D61880017329D /* Levotate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Levotate-Info.plist"; sourceTree = "<group>"; };
+		7512FDE1192D61880017329D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7512FDE3192D61880017329D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7512FDE5192D61880017329D /* Levotate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Levotate-Prefix.pch"; sourceTree = "<group>"; };
+		7512FDE7192D61880017329D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7512FDE9192D61880017329D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7512FDEA192D61880017329D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7512FDED192D61880017329D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7512FDEF192D61880017329D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7512FDF5192D61880017329D /* LevotateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LevotateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7512FDF6192D61880017329D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7512FDFD192D61880017329D /* LevotateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LevotateTests-Info.plist"; sourceTree = "<group>"; };
+		7512FDFF192D61880017329D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7512FE01192D61880017329D /* LevotateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LevotateTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7512FDD1192D61880017329D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7512FDD8192D61880017329D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7512FDF2192D61880017329D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7512FDF8192D61880017329D /* Cocoa.framework in Frameworks */,
+				7512FDF7192D61880017329D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7512FDCB192D61880017329D = {
+			isa = PBXGroup;
+			children = (
+				7512FDDD192D61880017329D /* Levotate */,
+				7512FDFB192D61880017329D /* LevotateTests */,
+				7512FDD6192D61880017329D /* Frameworks */,
+				7512FDD5192D61880017329D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7512FDD5192D61880017329D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7512FDD4192D61880017329D /* Levotate.app */,
+				7512FDF5192D61880017329D /* LevotateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7512FDD6192D61880017329D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7512FDD7192D61880017329D /* Cocoa.framework */,
+				7512FDF6192D61880017329D /* XCTest.framework */,
+				7512FDD9192D61880017329D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7512FDD9192D61880017329D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7512FDDA192D61880017329D /* AppKit.framework */,
+				7512FDDB192D61880017329D /* CoreData.framework */,
+				7512FDDC192D61880017329D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7512FDDD192D61880017329D /* Levotate */ = {
+			isa = PBXGroup;
+			children = (
+				7512FDE9192D61880017329D /* AppDelegate.h */,
+				7512FDEA192D61880017329D /* AppDelegate.m */,
+				7512FDEC192D61880017329D /* MainMenu.xib */,
+				7512FDEF192D61880017329D /* Images.xcassets */,
+				7512FDDE192D61880017329D /* Supporting Files */,
+			);
+			path = Levotate;
+			sourceTree = "<group>";
+		};
+		7512FDDE192D61880017329D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7512FDDF192D61880017329D /* Levotate-Info.plist */,
+				7512FDE0192D61880017329D /* InfoPlist.strings */,
+				7512FDE3192D61880017329D /* main.m */,
+				7512FDE5192D61880017329D /* Levotate-Prefix.pch */,
+				7512FDE6192D61880017329D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7512FDFB192D61880017329D /* LevotateTests */ = {
+			isa = PBXGroup;
+			children = (
+				7512FE01192D61880017329D /* LevotateTests.m */,
+				7512FDFC192D61880017329D /* Supporting Files */,
+			);
+			path = LevotateTests;
+			sourceTree = "<group>";
+		};
+		7512FDFC192D61880017329D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7512FDFD192D61880017329D /* LevotateTests-Info.plist */,
+				7512FDFE192D61880017329D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7512FDD3192D61880017329D /* Levotate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7512FE05192D61880017329D /* Build configuration list for PBXNativeTarget "Levotate" */;
+			buildPhases = (
+				7512FDD0192D61880017329D /* Sources */,
+				7512FDD1192D61880017329D /* Frameworks */,
+				7512FDD2192D61880017329D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Levotate;
+			productName = Levotate;
+			productReference = 7512FDD4192D61880017329D /* Levotate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7512FDF4192D61880017329D /* LevotateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7512FE08192D61880017329D /* Build configuration list for PBXNativeTarget "LevotateTests" */;
+			buildPhases = (
+				7512FDF1192D61880017329D /* Sources */,
+				7512FDF2192D61880017329D /* Frameworks */,
+				7512FDF3192D61880017329D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7512FDFA192D61880017329D /* PBXTargetDependency */,
+			);
+			name = LevotateTests;
+			productName = LevotateTests;
+			productReference = 7512FDF5192D61880017329D /* LevotateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7512FDCC192D61880017329D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Pivotal;
+				TargetAttributes = {
+					7512FDF4192D61880017329D = {
+						TestTargetID = 7512FDD3192D61880017329D;
+					};
+				};
+			};
+			buildConfigurationList = 7512FDCF192D61880017329D /* Build configuration list for PBXProject "Levotate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7512FDCB192D61880017329D;
+			productRefGroup = 7512FDD5192D61880017329D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7512FDD3192D61880017329D /* Levotate */,
+				7512FDF4192D61880017329D /* LevotateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7512FDD2192D61880017329D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7512FDE2192D61880017329D /* InfoPlist.strings in Resources */,
+				7512FDF0192D61880017329D /* Images.xcassets in Resources */,
+				7512FDE8192D61880017329D /* Credits.rtf in Resources */,
+				7512FDEE192D61880017329D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7512FDF3192D61880017329D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7512FE00192D61880017329D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7512FDD0192D61880017329D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7512FDEB192D61880017329D /* AppDelegate.m in Sources */,
+				7512FDE4192D61880017329D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7512FDF1192D61880017329D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7512FE02192D61880017329D /* LevotateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7512FDFA192D61880017329D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7512FDD3192D61880017329D /* Levotate */;
+			targetProxy = 7512FDF9192D61880017329D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7512FDE0192D61880017329D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7512FDE1192D61880017329D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7512FDE6192D61880017329D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7512FDE7192D61880017329D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7512FDEC192D61880017329D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7512FDED192D61880017329D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		7512FDFE192D61880017329D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7512FDFF192D61880017329D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7512FE03192D61880017329D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7512FE04192D61880017329D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7512FE06192D61880017329D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Levotate/Levotate-Prefix.pch";
+				INFOPLIST_FILE = "Levotate/Levotate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7512FE07192D61880017329D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Levotate/Levotate-Prefix.pch";
+				INFOPLIST_FILE = "Levotate/Levotate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7512FE09192D61880017329D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Levotate.app/Contents/MacOS/Levotate";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Levotate/Levotate-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LevotateTests/LevotateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7512FE0A192D61880017329D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Levotate.app/Contents/MacOS/Levotate";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Levotate/Levotate-Prefix.pch";
+				INFOPLIST_FILE = "LevotateTests/LevotateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7512FDCF192D61880017329D /* Build configuration list for PBXProject "Levotate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7512FE03192D61880017329D /* Debug */,
+				7512FE04192D61880017329D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7512FE05192D61880017329D /* Build configuration list for PBXNativeTarget "Levotate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7512FE06192D61880017329D /* Debug */,
+				7512FE07192D61880017329D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7512FE08192D61880017329D /* Build configuration list for PBXNativeTarget "LevotateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7512FE09192D61880017329D /* Debug */,
+				7512FE0A192D61880017329D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7512FDCC192D61880017329D /* Project object */;
+}
