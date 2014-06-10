@@ -18,6 +18,12 @@
 		7512FDF8192D61880017329D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7512FDD7192D61880017329D /* Cocoa.framework */; };
 		7512FE00192D61880017329D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7512FDFE192D61880017329D /* InfoPlist.strings */; };
 		7512FE02192D61880017329D /* LevotateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7512FE01192D61880017329D /* LevotateTests.m */; };
+		7512FE0D192D64460017329D /* JSONTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7512FE0C192D64460017329D /* JSONTextViewController.m */; };
+		7512FE16192D6C660017329D /* JSONManipulationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7512FE15192D6C660017329D /* JSONManipulationViewController.m */; };
+		7512FE19192E31EB0017329D /* ObjectBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7512FE18192E31EB0017329D /* ObjectBrowserViewController.m */; };
+		7512FE1C192E352B0017329D /* ObjectBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7512FE1B192E352B0017329D /* ObjectBrowserView.m */; };
+		7512FE1F192EAB7A0017329D /* LevotateParsedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7512FE1E192EAB7A0017329D /* LevotateParsedObject.m */; };
+		7512FE22192FF8C80017329D /* LevoDocumentWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7512FE21192FF8C80017329D /* LevoDocumentWriter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +56,18 @@
 		7512FDFD192D61880017329D /* LevotateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LevotateTests-Info.plist"; sourceTree = "<group>"; };
 		7512FDFF192D61880017329D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7512FE01192D61880017329D /* LevotateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LevotateTests.m; sourceTree = "<group>"; };
+		7512FE0B192D64460017329D /* JSONTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONTextViewController.h; sourceTree = "<group>"; };
+		7512FE0C192D64460017329D /* JSONTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONTextViewController.m; sourceTree = "<group>"; };
+		7512FE14192D6C660017329D /* JSONManipulationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONManipulationViewController.h; sourceTree = "<group>"; };
+		7512FE15192D6C660017329D /* JSONManipulationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONManipulationViewController.m; sourceTree = "<group>"; };
+		7512FE17192E31EB0017329D /* ObjectBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectBrowserViewController.h; sourceTree = "<group>"; };
+		7512FE18192E31EB0017329D /* ObjectBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectBrowserViewController.m; sourceTree = "<group>"; };
+		7512FE1A192E352B0017329D /* ObjectBrowserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectBrowserView.h; sourceTree = "<group>"; };
+		7512FE1B192E352B0017329D /* ObjectBrowserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectBrowserView.m; sourceTree = "<group>"; };
+		7512FE1D192EAB7A0017329D /* LevotateParsedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevotateParsedObject.h; sourceTree = "<group>"; };
+		7512FE1E192EAB7A0017329D /* LevotateParsedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevotateParsedObject.m; sourceTree = "<group>"; };
+		7512FE20192FF8C80017329D /* LevoDocumentWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevoDocumentWriter.h; sourceTree = "<group>"; };
+		7512FE21192FF8C80017329D /* LevoDocumentWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevoDocumentWriter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +138,18 @@
 				7512FDEC192D61880017329D /* MainMenu.xib */,
 				7512FDEF192D61880017329D /* Images.xcassets */,
 				7512FDDE192D61880017329D /* Supporting Files */,
+				7512FE0B192D64460017329D /* JSONTextViewController.h */,
+				7512FE0C192D64460017329D /* JSONTextViewController.m */,
+				7512FE14192D6C660017329D /* JSONManipulationViewController.h */,
+				7512FE15192D6C660017329D /* JSONManipulationViewController.m */,
+				7512FE17192E31EB0017329D /* ObjectBrowserViewController.h */,
+				7512FE18192E31EB0017329D /* ObjectBrowserViewController.m */,
+				7512FE1A192E352B0017329D /* ObjectBrowserView.h */,
+				7512FE1B192E352B0017329D /* ObjectBrowserView.m */,
+				7512FE1D192EAB7A0017329D /* LevotateParsedObject.h */,
+				7512FE1E192EAB7A0017329D /* LevotateParsedObject.m */,
+				7512FE20192FF8C80017329D /* LevoDocumentWriter.h */,
+				7512FE21192FF8C80017329D /* LevoDocumentWriter.m */,
 			);
 			path = Levotate;
 			sourceTree = "<group>";
@@ -252,7 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7512FE0D192D64460017329D /* JSONTextViewController.m in Sources */,
+				7512FE22192FF8C80017329D /* LevoDocumentWriter.m in Sources */,
+				7512FE19192E31EB0017329D /* ObjectBrowserViewController.m in Sources */,
 				7512FDEB192D61880017329D /* AppDelegate.m in Sources */,
+				7512FE16192D6C660017329D /* JSONManipulationViewController.m in Sources */,
+				7512FE1C192E352B0017329D /* ObjectBrowserView.m in Sources */,
+				7512FE1F192EAB7A0017329D /* LevotateParsedObject.m in Sources */,
 				7512FDE4192D61880017329D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +502,7 @@
 				7512FE07192D61880017329D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7512FE08192D61880017329D /* Build configuration list for PBXNativeTarget "LevotateTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +511,7 @@
 				7512FE0A192D61880017329D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
